@@ -1,0 +1,26 @@
+{
+  "name": "com.snakat.scene",
+  "version": "1.0.0",
+  "displayName": "Scene Manager",
+  "description": "Scene Manager",
+  "unity": "2021.3",
+  "unityRelease": "13f1",
+  "documentationUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.scene/README.md",
+  "changelogUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.scene/CHANGELOG.md",
+  "licensesUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.scene/LICENSE",
+  "dependencies": {
+    "com.cysharp.unitask": "2.3.3",
+    "com.neuecc.unirx": "7.1.0"
+  },
+  "keywords": [
+    "scene",
+    "manager",
+    "async",
+    "loading"
+  ],
+  "author": {
+    "name": "Khanh Bui",
+    "email": "buihoangkhanh@gmail.com",
+    "url": "https://khanhbui.github.io/"
+  }
+}
