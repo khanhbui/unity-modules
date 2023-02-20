@@ -1,0 +1,21 @@
+{
+  "name": "com.snakat.template",
+  "version": "1.0.0",
+  "displayName": "Template Package",
+  "description": "Template Package",
+  "unity": "2021.3",
+  "unityRelease": "13f1",
+  "documentationUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.template/README.md",
+  "changelogUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.template/CHANGELOG.md",
+  "licensesUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.template/LICENSE",
+  "dependencies": {
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": {
+    "name": "Khanh Bui",
+    "email": "buihoangkhanh@gmail.com",
+    "url": "https://khanhbui.github.io/"
+  }
+}
