@@ -1,0 +1,21 @@
+{
+  "name": "com.snakat.common",
+  "version": "1.0.0",
+  "displayName": "Common Package",
+  "description": "Common Package",
+  "unity": "2021.3",
+  "unityRelease": "13f1",
+  "documentationUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.common/README.md",
+  "changelogUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.common/CHANGELOG.md",
+  "licensesUrl": "https://github.com/khanhbui/unity-modules/blob/master/Packages/com.snakat.common/LICENSE",
+  "dependencies": {
+  },
+  "keywords": [
+    "common"
+  ],
+  "author": {
+    "name": "Khanh Bui",
+    "email": "buihoangkhanh@gmail.com",
+    "url": "https://khanhbui.github.io/"
+  }
+}

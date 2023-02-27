@@ -1,38 +1,29 @@
-using System.Collections.Generic;
-using UnityEngine;
+using Cysharp.Threading.Tasks;
+using Snakat.Common;
 
 namespace Snakat.Scene
 {
-    public class SceneManager : MonoBehaviour
+    public partial class SceneManager<T> : SingletonMonoBehaviour<T> where T: SceneManager<T>
     {
-        public static SceneManager Instance { get; private set; }
-
-        private readonly Stack<IScene> _sceneStack = new Stack<IScene>();
-
-
-        private void Awake()
+        public void PushScene<S>(IParam param = default) where S : IScene
         {
-            Instance = this;
+            PushSceneAsync<S>(param).Forget();
         }
 
-        public void PushScene<T>(IParam param = null) where T : IScene
+        public void PopScene(IParam param = null)
         {
-            throw new System.NotImplementedException();
+            PopSceneAsync(param).Forget();
         }
 
-        public void PopScene<T>(IParam param = null) where T : IScene
+        public void ReplaceScene<S>(IParam param = null) where S : IScene
         {
-            throw new System.NotImplementedException();
+            ReplaceSceneAsync<S>(param).Forget();
         }
 
-        public void ReplaceScene<T>(IParam param = null) where T : IScene
+        public void ResetToScene<TScene>(IParam param = null) where TScene : IScene
         {
             throw new System.NotImplementedException();
         }
 
-        public void ResetToScene<T>(IParam param = null) where T : IScene
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }
